@@ -1,6 +1,7 @@
 @import url("estilos/cabecalho.css");
 @import url("estilos/banner.css");
 @import url("estilos/sobre.css");
+@import url("estilos/receitas.css");
 
 :root{
     --preto : #000000;
