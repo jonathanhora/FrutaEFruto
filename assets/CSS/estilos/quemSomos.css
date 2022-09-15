@@ -61,3 +61,21 @@
 .pessoa__imagem__andreia{
     background-image: url('../../img/pessoas/Andreia.svg');
 }
+
+@media screen and (min-width: 0) {
+    .pessoas{
+        flex-direction: column;
+    }
+    .pessoa{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas{
+        flex-direction: row;
+    }
+    .pessoa{
+        margin-bottom: 0;
+    }
+}
