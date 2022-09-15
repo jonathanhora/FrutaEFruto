@@ -1,0 +1,17 @@
+@import url("estilos/cabecalho.css");
+
+:root{
+    --preto : #000000;
+    --vermelho: #8D0606;
+    --cinza: #8C8888;
+    --branco: #FFFFFF;
+    --fonteTitulo: 'Pacifico';
+    --fonteTexto: 'Roboto';
+    --brancoFundo: #F9F9F9;
+}
+
+body{
+    font-family: var(--fonteTexto);
+    font-weight: 400;
+    color: var(--preto);
+}

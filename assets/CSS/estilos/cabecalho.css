@@ -1,0 +1,32 @@
+.cabecalho{
+    align-items: center;
+    background-color: var(--brancoFundo);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.cabecalho__lista{
+    display: flex;
+}
+
+.cabecalho__lista__item:last-child a{
+    margin-right: 0;
+}
+
+.cabecalho__item__link{
+    color: var(--cinza);
+    margin-right: 1.25rem;
+    text-transform:capitalize;
+}
+
+.cabecalho__item__link:hover{
+    color: var(--preto);
+}
+
+.cabecalho__item__link.ativo{
+    color: var(--preto);
+    font-weight: bold;
+}
+
+
