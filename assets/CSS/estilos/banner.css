@@ -4,19 +4,19 @@
 }
 
 .banner__img{
-    width: 100%;
     height: calc(100vh-72px);
+    width: 100%;
 }
 
 .banner__titulo{
+    color: var(--branco);
     font-family: var(--fonteTitulo);
     font-size: 5.0625rem;
-    text-shadow:  0 4px 4px rgba(0, 0, 0, 0.75);
-    color: var(--branco);
-    position: absolute;
     left: 50%;
-    top: 50%;
+    position: absolute;
     text-align: center;
+    text-shadow:  0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }

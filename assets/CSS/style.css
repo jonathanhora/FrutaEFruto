@@ -2,19 +2,21 @@
 @import url("estilos/banner.css");
 @import url("estilos/sobre.css");
 @import url("estilos/receitas.css");
+@import url("estilos/quemSomos.css");
+@import url("estilos/rodape.css");
 
 :root{
+    --branco: #FFFFFF;
+    --brancoFundo: #F9F9F9;
+    --cinza: #8C8888;
+    --fonteTexto: 'Roboto';
+    --fonteTitulo: 'Pacifico';
     --preto : #000000;
     --vermelho: #8D0606;
-    --cinza: #8C8888;
-    --branco: #FFFFFF;
-    --fonteTitulo: 'Pacifico';
-    --fonteTexto: 'Roboto';
-    --brancoFundo: #F9F9F9;
 }
 
 body{
+    color: var(--preto);
     font-family: var(--fonteTexto);
     font-weight: 400;
-    color: var(--preto);
 }
